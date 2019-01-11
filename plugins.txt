@@ -1,0 +1,8 @@
+ctrlp.vim
+lightline.vim
+nerdcommenter
+nerdtree
+splitjoin.vim
+vim-better-whitespace
+vim-go
+vim-startify
