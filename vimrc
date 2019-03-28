@@ -13,7 +13,7 @@ set autoread                    "Reload files changed outside vim
 set autoindent
 
 set wrap       "Wrap lines
-set textwidth=120
+set textwidth=80
 set linebreak    "Wrap lines at convenient points
 
 set wildmode=list:longest
@@ -109,6 +109,10 @@ let g:go_highlight_operators = 1
 " set shortcut (\i) to get signature of method
 autocmd FileType go nmap <Leader>i <Plug>(go-info)
 
+" *********************
+" END GO STUFF
+" *********************
+
 " NERDTree
 noremap <leader>f :NERDTreeToggle<CR>
 noremap <leader>t :TagbarToggle<CR>
@@ -124,7 +128,12 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" deoplete
+let g:deoplete#enable_at_startup = 1
+
 " lightline
 set laststatus=2
+
+set omnifunc=syntaxcomplete#Complete
 
 syntax on

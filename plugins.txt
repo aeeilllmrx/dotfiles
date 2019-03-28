@@ -1,8 +1,19 @@
+"" download to .vim/pack/plugins/start/
+
+" vim
 ctrlp.vim
 lightline.vim
 nerdcommenter
 nerdtree
 splitjoin.vim
 vim-better-whitespace
-vim-go
 vim-startify
+
+" go
+vim-go
+
+" scala
+ftdetect
+indent
+syntax
+vim-scala
